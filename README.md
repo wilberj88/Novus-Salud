@@ -15,3 +15,6 @@ ChatGPT3:"What are some emerging machine learning use-cases in healthcare?"
 
 Adultos Mayores:
 https://elpais.com/sociedad/cuidar-y-ser-cuidado/2023-02-27/la-tecnologia-que-transforma-y-mejora-los-cuidados.html
+
+Apple Health Data:
+https://towardsdatascience.com/playing-with-apple-health-data-be426bcff85e
