@@ -15,6 +15,8 @@ ChatGPT3:"What are some emerging machine learning use-cases in healthcare?"
 
 Adultos Mayores:
 https://elpais.com/sociedad/cuidar-y-ser-cuidado/2023-02-27/la-tecnologia-que-transforma-y-mejora-los-cuidados.html
+Interacción con videos vía YoutubeGPT:
+https://medium.com/@dan.avila7/youtube-gpt-start-a-chat-with-a-video-efe92a499e60
 
 Apple Health Data:
 https://towardsdatascience.com/playing-with-apple-health-data-be426bcff85e
