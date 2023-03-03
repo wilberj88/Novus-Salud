@@ -20,3 +20,6 @@ https://medium.com/@dan.avila7/youtube-gpt-start-a-chat-with-a-video-efe92a499e6
 
 Apple Health Data:
 https://towardsdatascience.com/playing-with-apple-health-data-be426bcff85e
+
+Sleeping anomalies:
+https://betterprogramming.pub/interpreting-135-nights-of-sleep-with-data-anomaly-detection-and-time-series-f6ee04625260
