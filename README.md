@@ -1,5 +1,8 @@
 # Novus-Salud
 
+Appointment System:
+https://medium.com/mlearning-ai/doctor-patient-appointment-system-in-python-using-flask-with-source-code-2f92ae1f2c63
+
 Predictions 
 Accident Severity:
 https://road-traffic-severity-prediction.streamlit.app/
