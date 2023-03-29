@@ -1,7 +1,10 @@
 # Novus-Salud
+IA para toda la cadena de la salud: prevención, diagnóstico, atención, tratamiento, monitoreo y rehabilitación.
 
 Appointment System:
 https://medium.com/mlearning-ai/doctor-patient-appointment-system-in-python-using-flask-with-source-code-2f92ae1f2c63
+
+Image Segmentation for Diagnosis:https://heartbeat.comet.ml/semi-supervised-deep-learning-for-medical-image-segmentation-5a14990ae58c
 
 Predictions 
 Accident Severity:
