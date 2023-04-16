@@ -1,11 +1,14 @@
 # Novus-Salud
 IA para toda la cadena de la salud: prevención, diagnóstico, atención, tratamiento, monitoreo y rehabilitación.
 
+
+
 Appointment System:
 https://medium.com/mlearning-ai/doctor-patient-appointment-system-in-python-using-flask-with-source-code-2f92ae1f2c63
 
 References:
 Heart attack: Kaggle DataSet
+Chat Doctor: https://arxiv.org/abs/2303.14070
 
 Image Segmentation for Diagnosis:https://heartbeat.comet.ml/semi-supervised-deep-learning-for-medical-image-segmentation-5a14990ae58c
 
