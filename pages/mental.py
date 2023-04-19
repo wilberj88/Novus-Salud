@@ -52,6 +52,9 @@ st.write('---')
 st.title('1. Diagnóstico Personalizado 📝')
 st.write('Video Preguntas Aleatorias')
 st.write('Análisis de Sentimiento en Texto y Video')
+col7, col8 = st.columns(2)
+col7.metric("Riesgo en Voz", "68%", "15%")
+col8.metric("Riesgo en Video", "57%", "10%")
 st.write('Resultados Vs Promedio Nacional')
 def render_basic_radar():
     option = {
