@@ -15,7 +15,15 @@ st.header("Soluciones en la Nube para la Salud Mental 🧠")
 
 st.title('Datos del Suicidio en España 2021 📝')
 st.write('Fuente: Observatorio del Suicidio en España (https://www.fsme.es/observatorio-del-suicidio-2021/)')
+data = {'Año': [2021, 2020],
+        'Suicidios Totales': [4003, 3941],
+        'Suicidios Masculinos': [2982, 2933],
+        'Suicidios Femeninos': [1021, 1008],
+        'Suicidios Infanto-Juveniles': [22, 11],
+        'Suicidios Adultos>70': [999, 980]}
 
+df = pd.DataFrame(data)
+st.dataframe(df)
 
 
 st.title('1. Diagnóstico Personalizado 📝')
