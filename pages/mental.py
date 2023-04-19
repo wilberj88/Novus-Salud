@@ -32,6 +32,7 @@ col1.metric("Hombres", "8", "1,8%")
 col2.metric("Mujeres", "2,8", "1%")
 col3.metric("Mayores de 70", "2,7", "2%")
 col4.metric("Niños", "0,06", "50%")
+st.write('Crecimiento Interanual 2021 Vs 2020 en verde. Cálculos Novus Salud. Fuente: Observatorio del Suicidio en España')
 
 st.title('1. Diagnóstico Personalizado 📝')
 
