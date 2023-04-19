@@ -51,6 +51,11 @@ st.write('---')
 
 st.title('1. Diagnóstico Personalizado 📝')
 st.write('Video Preguntas Aleatorias')
+picture = st.camera_input("Responde en 30 segundos la siguiente pregunta: ¿Bla Bla bla?")
+if picture:
+    st.image(picture)
+    st.write('Cargar Respuesta 🤖')
+
 st.write('Análisis de Sentimiento en Texto y Video')
 col7, col8 = st.columns(2)
 col7.metric("Riesgo en Voz", "68%", "15%")
