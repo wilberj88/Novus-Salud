@@ -350,3 +350,65 @@ ST_HEATMAP_DEMOS = {
 render_heatmap_cartesian()
 
 st.title('3. Evaluación y Monitoreo Personalizado en Tiempo Real 📍')
+col8, col9, col10 = st.columns(3)
+with col8:
+  acelerometro1 = {
+        "tooltip": {"formatter": "{a} <br/>{b} : {c}%"},
+        "series": [
+            {
+                "name": "Pressure",
+                "type": "gauge",
+                "axisLine": {
+                    "lineStyle": {
+                        "width": 10,
+                    },
+                },
+                "progress": {"show": "true", "width": 10},
+                "detail": {"valueAnimation": "true", "formatter": "{value}"},
+                "data": [{"value": 25, "name": "Concejales"}],
+            }
+        ],
+    }
+
+  st_echarts(options=acelerometro1)
+
+with col9:
+  acelerometro2 = {
+        "tooltip": {"formatter": "{a} <br/>{b} : {c}%"},
+        "series": [
+            {
+                "name": "Pressure",
+                "type": "gauge",
+                "axisLine": {
+                    "lineStyle": {
+                        "width": 10,
+                    },
+                },
+                "progress": {"show": "true", "width": 10},
+                "detail": {"valueAnimation": "true", "formatter": "{value}"},
+                "data": [{"value": 90, "name": "Votos"}],
+            }
+        ],
+    }
+
+  st_echarts(options=acelerometro2)
+
+with col10:
+  acelerometro3 = {
+        "tooltip": {"formatter": "{a} <br/>{b} : {c}%"},
+        "series": [
+            {
+                "name": "Pressure",
+                "type": "gauge",
+                "axisLine": {
+                    "lineStyle": {
+                        "width": 10,
+                    },
+                },
+                "progress": {"show": "true", "width": 10},
+                "detail": {"valueAnimation": "true", "formatter": "{value}"},
+                "data": [{"value": 66, "name": "Sentimiento"}],
+            }
+        ],
+    }
+  st_echarts(options=acelerometro3)
