@@ -50,6 +50,48 @@ st.write("""
 st.write('---')
 
 st.title('1. Diagnóstico Personalizado 📝')
+st.write('Video Preguntas Aleatorias')
+st.write('Análisis de Sentimiento en Texto y Video')
+st.write('Resultados Vs Promedio Nacional')
+def render_basic_radar():
+    option = {
+        "title": {"text": "Previo Votación 🗳️"},
+        "legend": {"data": ["Candidato A", "Candidato B"]},
+        "radar": {
+            "indicator": [
+                {"name": "Líderes", "max": 6500},
+                {"name": "Financiación", "max": 16000},
+                {"name": "Sentimiento", "max": 30000},
+                {"name": "Votación Anterior", "max": 38000},
+                {"name": "Interaciones", "max": 52000},
+                {"name": "Recordación de Marca", "max": 25000},
+            ]
+        },
+        "series": [
+            {
+                "name": "Aprendizaje Actual Vs Proyectado",
+                "type": "radar",
+                "data": [
+                    {
+                        "value": [2000, 10000, 20000, 3500, 15000, 11800],
+                        "name": "Candidato A",
+                    },
+                    {
+                        "value": [3500, 15000, 25000, 10800, 22000, 20000],
+                        "name": "Candidato B",
+                    },
+                ],
+            }
+        ],
+    }
+    st_echarts(option, height="500px")
+ST_RADAR_DEMOS = {
+    "Radar: Basic Radar": (
+        render_basic_radar,
+        "https://echarts.apache.org/examples/en/editor.html?c=radar",
+    ),
+}
+render_basic_radar()
 
 
 st.title('2. Calendario de Atención Personalizado 📅')
