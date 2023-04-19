@@ -28,10 +28,10 @@ st.write('Fuente: Observatorio del Suicidio en España (https://www.fsme.es/obse
 
 st.title('Desafío Diario del Suicidio en España')
 col1, col2, col3, col4 = st.columns(4)
-        col1.metric("Hombre", "8", "1,8%")
-        col2.metric("Mujeres", "2,8", "1%")
-        col3.metric("Abuelos", "2,7", "2%")
-        col4.metric("Niños", "0,06%", "50%")
+col1.metric("Hombre", "8", "1,8%")
+col2.metric("Mujeres", "2,8", "1%")
+col3.metric("Abuelos", "2,7", "2%")
+col4.metric("Niños", "0,06%", "50%")
 
 st.title('1. Diagnóstico Personalizado 📝')
 
