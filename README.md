@@ -12,6 +12,9 @@ Chat Doctor: https://arxiv.org/abs/2303.14070
 
 Image Segmentation for Diagnosis:https://heartbeat.comet.ml/semi-supervised-deep-learning-for-medical-image-segmentation-5a14990ae58c
 
+Salud mental
+Suicidios: https://www.fsme.es/observatorio-del-suicidio-2021/
+
 Predictions 
 Accident Severity:
 https://road-traffic-severity-prediction.streamlit.app/
