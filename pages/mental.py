@@ -34,6 +34,21 @@ col3.metric("Mayores de 70", "2,7", "2%")
 col4.metric("Niños", "0,06", "50%")
 st.write('Crecimiento Interanual 2021 Vs 2020 en verde. Cálculos Novus Salud. Fuente: Observatorio del Suicidio en España')
 
+
+st.title('Oportunidad de Predicción Oportuna')
+col5, col6 = st.columns(2)
+col5.metric("Intentos x Suicidio", "20", "NA")
+col6.metric("Intentos anuales en España", "80000", "NA")
+st.write('Tenemos 19 intentos para detectar interés de suicidio')
+st.write('Podemos rastrear los intentos previos o potenciales mediante diagnósticos')
+
+
+st.write("""
+**Propuesta de Solución desde Novus Salud 🩺**
+- Análisis de Sentimiento en Tiempo Real que `Predice Riesgo de Suicidio` con `ChatGPT & Whisper` engines
+""")
+st.write('---')
+
 st.title('1. Diagnóstico Personalizado 📝')
 
 
