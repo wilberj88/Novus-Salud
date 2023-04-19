@@ -1,0 +1,9 @@
+streamlit
+streamlit_echarts
+pandas
+numpy
+plotly.express
+selenium
+beautifulsoup4
+pytrends
+seaborn
