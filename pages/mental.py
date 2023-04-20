@@ -50,6 +50,8 @@ st.write("""
 st.write('---')
 
 st.title('1. Diagnóstico Personalizado 📝')
+st.write('')
+
 st.write('Video Preguntas Aleatorias')
 picture = st.camera_input("Responde en 30 segundos la siguiente pregunta: ¿Bla Bla bla?")
 if picture:
