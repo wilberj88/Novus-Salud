@@ -11,3 +11,5 @@ from streamlit_echarts import st_pyecharts
 st.set_page_config(layout="wide", page_title="Novus Salud", page_icon="🩺")
 
 st.title('Novus Salud 🩺')
+
+st.header("Soluciones en la Nube para la Salud Animal 🦜")
