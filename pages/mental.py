@@ -52,6 +52,8 @@ st.write('---')
 st.title('1. Diagnóstico Personalizado 📝')
 st.write('')
 
+st.text_input('Ingresa la URL de la red social en versión pública a analizar:')
+
 st.write('Video Preguntas Aleatorias')
 picture = st.camera_input("Responde en 30 segundos la siguiente pregunta: ¿Bla Bla bla?")
 if picture:
