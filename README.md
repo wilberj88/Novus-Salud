@@ -38,3 +38,6 @@ https://towardsdatascience.com/playing-with-apple-health-data-be426bcff85e
 
 Sleeping anomalies:
 https://betterprogramming.pub/interpreting-135-nights-of-sleep-with-data-anomaly-detection-and-time-series-f6ee04625260
+
+AI talks: ChatGPT assistant via Streamlit
+https://blog.streamlit.io/ai-talks-chatgpt-assistant-via-streamlit/
