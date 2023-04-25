@@ -53,8 +53,9 @@ def cronometro(tiempo):
         print(tiempo_formato, end='\r')
         time.sleep(1)
 
+crono_hombres = cronometro(5)        
 # Ejemplo de uso: cronometro durante 5 segundos.
-st.write(cronometro(5))
+st.write(crono_hombres)
 
 
 
