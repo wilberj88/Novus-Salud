@@ -37,7 +37,7 @@ col4.metric("Niños", "0,06", "50%")
 st.write('Crecimiento Interanual 2021 Vs 2020 en verde. Cálculos Novus Salud. Fuente: Observatorio del Suicidio en España')
 
 
-st.title('Oportunidad de Predicción Oportuna')
+st.title('Oportunidad de Predicción')
 col5, col6 = st.columns(2)
 col5.metric("Intentos x Suicidio", "20", "NA")
 col6.metric("Intentos anuales en España", "80000", "NA")
