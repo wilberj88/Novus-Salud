@@ -5,6 +5,8 @@ import numpy as np
 from pyecharts import options as opts
 from pyecharts.charts import Bar
 from streamlit_echarts import st_pyecharts
+import time
+
 
 
 # SETTING PAGE CONFIG TO WIDE MODE AND ADDING A TITLE AND FAVICON
@@ -41,6 +43,19 @@ col5.metric("Intentos x Suicidio", "20", "NA")
 col6.metric("Intentos anuales en España", "80000", "NA")
 st.write('Tenemos 19 intentos para detectar interés de suicidio')
 st.write('Podemos rastrear los intentos previos o potenciales mediante diagnósticos')
+
+st.title('Cronómetro de los suicidios en España')
+def cronometro(tiempo):
+    """Función para el cronómetro que recibe el tiempo en segundos."""
+    for segundos in range(tiempo):
+        minutos, segundos = divmod(segundos, 60)
+        tiempo_formato = '{:02d}:{:02d}'.format(minutos, segundos)
+        print(tiempo_formato, end='\r')
+        time.sleep(1)
+
+# Ejemplo de uso: cronometro durante 5 segundos.
+cronometro(5)
+
 
 
 st.write("""
