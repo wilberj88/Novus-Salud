@@ -46,10 +46,10 @@ st.write('Podemos rastrear los intentos previos o potenciales mediante diagnóst
 
 st.title('Cronómetro de los suicidios en España')
 ph = st.empty()
-N = 5*60
+N = 180*60
 for secs in range(N,0,-1):
     mm, ss = secs//60, secs%60
-    ph.metric("Countdown", f"{mm:02d}:{ss:02d}")
+    ph.metric("Minutos faltantes para el suicidio de un hombre en España", f"{mm:02d}:{ss:02d}")
     time.sleep(1)
 st.write(crono_hombres)
 
