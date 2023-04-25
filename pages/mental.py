@@ -51,7 +51,14 @@ for secs in range(N,0,-1):
     mm, ss = secs//60, secs%60
     ph.metric("Minutos faltantes para el suicidio de un hombre en España", f"{mm:02d}:{ss:02d}")
     time.sleep(1)
-st.write(crono_hombres)
+
+ph2 = st.empty()
+N2 = 485*60
+for secs in range(N,0,-1):
+    mm, ss = secs//60, secs%60
+    ph2.metric("Minutos faltantes para el suicidio de una mujer en España", f"{mm:02d}:{ss:02d}")
+    time.sleep(1)
+
 
 
 
