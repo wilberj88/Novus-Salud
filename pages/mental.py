@@ -421,15 +421,6 @@ with col10:
 
         
 st.title('Cronómetro de los suicidios en España')
-ph = st.empty()
-N = 180*60
-for secs in range(N,0,-1):
-    mm, ss = secs//60, secs%60
-    ph.metric("Minutos faltantes promedio para el suicidio de un hombre en España", f"{mm:02d}:{ss:02d}")
-    time.sleep(1)        
-
-
-
 def count_down(ts):
     with st.empty():
         while ts:
@@ -447,3 +438,11 @@ if st.button("START"):
         count_down(int(time_in_seconds))
 if __name__ == '__main__':
     main()
+
+ph = st.empty()
+N = 180*60
+for secs in range(N,0,-1):
+    mm, ss = secs//60, secs%60
+    ph.metric("Minutos faltantes promedio para el suicidio de un hombre en España", f"{mm:02d}:{ss:02d}")
+    time.sleep(1)        
+
