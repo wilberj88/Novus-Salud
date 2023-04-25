@@ -46,14 +46,21 @@ st.write('Podemos rastrear los intentos previos o potenciales mediante diagnóst
 
 st.title('Cronómetro de los suicidios en España')
 def cronometro(tiempo):
-    """Función para el cronómetro que recibe el tiempo en segundos."""
-    for segundos in range(tiempo):
-        minutos, segundos = divmod(segundos, 60)
-        tiempo_formato = '{:02d}:{:02d}'.format(minutos, segundos)
-        print(tiempo_formato, end='\r')
-        time.sleep(1)
+    """Función para el cronómetro que recibe el tiempo en minutos."""
+    inicio = time.time()
+    tiempo_restante = tiempo * 60
 
-crono_hombres = cronometro(5)        
+    while tiempo_restante >= 0:
+        minutos, segundos = divmod(tiempo_restante, 60)
+        milisegundos = int((tiempo * 60 - (time.time() - inicio)) * 1000) % 1000
+        tiempo_formato = '{:02d}:{:02d}.{:03d}'.format(minutos, segundos, milisegundos)
+        print(tiempo_formato, end='\r')
+        time.sleep(0.001)
+        tiempo_restante = tiempo * 60 - (time.time() - inicio)
+
+    print('¡Tiempo terminado!')
+
+crono_hombres = cronometro(180)        
 # Ejemplo de uso: cronometro durante 5 segundos.
 st.write(crono_hombres)
 
