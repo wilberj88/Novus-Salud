@@ -60,7 +60,7 @@ def cronometro(tiempo):
 
     print('¡Tiempo terminado!')
 
-crono_hombres = cronometro(180)        
+crono_hombres = cronometro(5)        
 # Ejemplo de uso: cronometro durante 5 segundos.
 st.write(crono_hombres)
 
