@@ -54,7 +54,7 @@ def cronometro(tiempo):
         time.sleep(1)
 
 # Ejemplo de uso: cronometro durante 5 segundos.
-cronometro(5)
+st.write(cronometro(5))
 
 
 
