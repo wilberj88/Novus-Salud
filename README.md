@@ -10,6 +10,7 @@ https://medium.com/mlearning-ai/doctor-patient-appointment-system-in-python-usin
 References:
 Heart attack: Kaggle DataSet
 Chat Doctor: https://arxiv.org/abs/2303.14070
+Therapist: https://medium.com/codefile/using-streamlits-chat-elements-the-doctor-is-in-3ea983422827
 
 Image Segmentation for Diagnosis:https://heartbeat.comet.ml/semi-supervised-deep-learning-for-medical-image-segmentation-5a14990ae58c
 
