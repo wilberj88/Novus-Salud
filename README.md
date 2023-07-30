@@ -8,6 +8,7 @@ Appointment System:
 https://medium.com/mlearning-ai/doctor-patient-appointment-system-in-python-using-flask-with-source-code-2f92ae1f2c63
 
 References:
+Pose Estimation 40USD: https://store.augmentedstartups.com/582359c5-ae24-4885-a40b-de42bb07d505/?coupon=20OFFPROJECTS
 Heart attack: Kaggle DataSet
 Chat Doctor: https://arxiv.org/abs/2303.14070
 Therapist: https://medium.com/codefile/using-streamlits-chat-elements-the-doctor-is-in-3ea983422827
