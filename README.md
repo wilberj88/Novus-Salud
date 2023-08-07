@@ -45,3 +45,6 @@ https://betterprogramming.pub/interpreting-135-nights-of-sleep-with-data-anomaly
 
 AI talks: ChatGPT assistant via Streamlit
 https://blog.streamlit.io/ai-talks-chatgpt-assistant-via-streamlit/
+
+VideoJuegos de Texto en Rust para adultos mayores:
+https://platzi.com/clases/3077-rust-basico/48995-descripcion-del-proyecto-videojuego-de-texto/
