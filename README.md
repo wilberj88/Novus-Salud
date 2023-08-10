@@ -19,6 +19,8 @@ Salud mental
 Suicidios: https://www.fsme.es/observatorio-del-suicidio-2021/
 
 Predictions 
+Heart Failure:
+https://hai.stanford.edu/news/proving-ai-clinic-algorithm-accurately-evaluates-heart-failure
 Accident Severity:
 https://road-traffic-severity-prediction.streamlit.app/
 Fetal Risk:
