@@ -26,6 +26,9 @@ https://road-traffic-severity-prediction.streamlit.app/
 Fetal Risk:
 https://github.com/ismael-araujo/Predicting-Fetal-Risk-Using-Cardiotocographic-Data-
 
+Rise Up! Building an Alert System for My Standing Desk using Data and Home Assistant | by Juan De Dios Santos | May, 2023 | Towards Data Science
+https://juandes.com/standing-desk-alert
+
 ChatGPT3:"What are some emerging machine learning use-cases in healthcare?"
 1. Automated Diagnosis: Machine learning algorithms can be used to analyze patient data and medical images to detect and diagnose diseases.
 2. Personalized Medicine: Machine learning algorithms can be used to analyze patient data and medical images to create personalized treatment plans for each patient.
