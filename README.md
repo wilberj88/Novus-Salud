@@ -17,6 +17,7 @@ Image Segmentation for Diagnosis:https://heartbeat.comet.ml/semi-supervised-deep
 
 Salud mental
 Suicidios: https://www.fsme.es/observatorio-del-suicidio-2021/
+https://www.kaggle.com/datasets/joebeachcapital/suicides
 
 Predictions 
 Heart Failure:
