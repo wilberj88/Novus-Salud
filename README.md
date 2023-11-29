@@ -7,6 +7,9 @@ https://blog.streamlit.io/introducing-a-chemical-molecule-component-for-your-str
 Appointment System:
 https://medium.com/mlearning-ai/doctor-patient-appointment-system-in-python-using-flask-with-source-code-2f92ae1f2c63
 
+Medical Records
+https://python.plainenglish.io/pymedicalrecords-7baa180f0c40
+
 References:
 Pose Estimation 40USD: https://store.augmentedstartups.com/582359c5-ae24-4885-a40b-de42bb07d505/?coupon=20OFFPROJECTS
 Heart attack: Kaggle DataSet
