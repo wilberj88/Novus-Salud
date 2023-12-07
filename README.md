@@ -10,6 +10,9 @@ https://medium.com/mlearning-ai/doctor-patient-appointment-system-in-python-usin
 Medical Records
 https://python.plainenglish.io/pymedicalrecords-7baa180f0c40
 
+3D Visualizations of organs:
+https://levelup.gitconnected.com/unlocking-the-power-of-3d-visualization-in-medical-imaging-with-python-and-vedo-2328db2c9577
+
 References:
 Pose Estimation 40USD: https://store.augmentedstartups.com/582359c5-ae24-4885-a40b-de42bb07d505/?coupon=20OFFPROJECTS
 Heart attack: Kaggle DataSet
