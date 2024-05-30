@@ -1,6 +1,9 @@
 # Novus-Salud
 IA para toda la cadena de la salud: prevención, diagnóstico, atención, tratamiento, monitoreo y rehabilitación.
 
+For Astronauts:
+https://generativeai.pub/why-ai-health-tech-will-be-the-future-of-space-exploration-b93f41981d47
+
 Chemical Molecule:
 https://blog.streamlit.io/introducing-a-chemical-molecule-component-for-your-streamlit-apps/
 
