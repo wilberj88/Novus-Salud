@@ -1,6 +1,9 @@
 # Novus-Salud
 IA para toda la cadena de la salud: prevención, diagnóstico, atención, tratamiento, monitoreo y rehabilitación.
 
+Fiver Detection:
+https://augmentedstartups.medium.com/ai-ir-camera-fever-detection-7b7f431ecb8f
+
 For Astronauts:
 https://generativeai.pub/why-ai-health-tech-will-be-the-future-of-space-exploration-b93f41981d47
 
